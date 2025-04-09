@@ -22,7 +22,7 @@ AgentSmith is a powerful tool designed to enhance the creation, evaluation, and 
 
   The AgentSmith Tester evaluates the effectiveness of the system prompt and the quality of the output it produces. The Tester analyzes the prompt for structure and clarity, executes it to generate output, and evaluates the output based on relevance, accuracy, and completeness. The Tester provides feedback and suggests improvements, encouraging feedback to refine the evaluation process. The evaluation criteria include relevance, accuracy, completeness, clarity, and creativity, each scored on a scale from 1 to 5.
 
-## Usage with the O: Agentic Design CLI Framework
+## Usage with the O: Agentic Design Framework
 
 These prompts are written in a general enough fashion to be used for any LLM regardless of framework however they have been purpose built to benefit from the template parsing of O.
 
@@ -36,7 +36,7 @@ o -s agents/[ROLE].md "[INSTRUCTIONS]"
 
 ## Integration with the O Framework
 
-AgentSmith prompts are designed to seamlessly integrate with the [O: Agentic Design CLI framework](https://github.com/rev-dot-now/o), allowing users to leverage the power of natural language to automate tasks and create reusable agents. By using the O framework, users can enhance the functionality of AgentSmith prompts, making them more versatile and adaptable to various scenarios.
+AgentSmith prompts are designed to seamlessly integrate with the [O: Agentic Design framework](https://github.com/rev-dot-now/o), allowing users to leverage the power of natural language to automate tasks and create reusable agents. By using the O framework, users can enhance the functionality of AgentSmith prompts, making them more versatile and adaptable to various scenarios.
 
 ## Contribution Guidelines
 
