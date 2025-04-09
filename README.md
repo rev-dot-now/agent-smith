@@ -32,9 +32,9 @@ o -i -s agents/[ROLE].md
 o -s agents/[ROLE].md "[INSTRUCTIONS]"
 ```
 
-## Integration with the `o` Framework
+## Integration with the O Framework
 
-AgentSmith prompts are designed to seamlessly integrate with the `o` CLI framework, allowing users to leverage the power of natural language to automate tasks and create reusable agents. By using the `o` framework, users can enhance the functionality of AgentSmith prompts, making them more versatile and adaptable to various scenarios.
+AgentSmith prompts are designed to seamlessly integrate with the [O: Agentic Design CLI framework](https://github.com/rev-dot-now/o), allowing users to leverage the power of natural language to automate tasks and create reusable agents. By using the O framework, users can enhance the functionality of AgentSmith prompts, making them more versatile and adaptable to various scenarios.
 
 ## Contribution Guidelines
 
