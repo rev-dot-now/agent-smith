@@ -32,7 +32,6 @@ of the same named variable in the system prompt should have the same value.
 
 - Ensure the system prompt is concise and focused on the task at hand.
 - Do not provide any additional supporting output only the generated system prompt.
-- Ignore the variables provided in the examples.
 
 ## Error Handling
 
