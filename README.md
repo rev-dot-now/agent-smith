@@ -2,6 +2,10 @@
 
 A set of LLM agnostic system prompts for creating AI Agents.
 
+## Introduction
+
+AgentSmith is a powerful tool designed to enhance the creation, evaluation, and testing of system prompts for AI agents. System prompts are crucial in guiding AI behavior and responses, and AgentSmith provides a structured approach to crafting these prompts effectively.
+
 ## Roles
 
 - **AgentSmith Writer**
@@ -18,9 +22,7 @@ A set of LLM agnostic system prompts for creating AI Agents.
 
 ## Usage with the O: Agentic Design CLI Framework
 
-These prompts are written in a general enough fashion to be used for any LLM
-regardless of framework however they have been purpose built to benefit from
-the template parsing of O.
+These prompts are written in a general enough fashion to be used for any LLM regardless of framework however they have been purpose built to benefit from the template parsing of O.
 
 ```bash
 # To use in interactive mode
@@ -29,3 +31,15 @@ o -i -s agents/[ROLE].md
 # To use in one-shot mode usage
 o -s agents/[ROLE].md "[INSTRUCTIONS]"
 ```
+
+## Integration with the `o` Framework
+
+AgentSmith prompts are designed to seamlessly integrate with the `o` CLI framework, allowing users to leverage the power of natural language to automate tasks and create reusable agents. By using the `o` framework, users can enhance the functionality of AgentSmith prompts, making them more versatile and adaptable to various scenarios.
+
+## Contribution Guidelines
+
+We welcome contributions to the AgentSmith project! If you have ideas, suggestions, or improvements, please feel free to contribute. Together, we can make AgentSmith even better!
+
+## Contact Information
+
+For support or feedback, please contact the author at <a href="mailto:hans@oksendahl.com">hans@oksendahl.com</a>. We'd love to hear from you!
