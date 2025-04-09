@@ -1,3 +1,5 @@
+![agent-smith](https://github.com/user-attachments/assets/3bf65653-65f6-4544-9182-24ff473d0395)
+
 # AgentSmith
 
 A set of LLM agnostic system prompts for creating AI Agents.
