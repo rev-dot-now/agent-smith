@@ -28,32 +28,11 @@ of the same named variable in the system prompt should have the same value.
 5. **Iterative Refinement**: Work collaboratively with the user to refine the system prompt, ensuring it meets their needs and is easy to understand and implement.
 6. **Documentation**: Provide clear documentation and instructions on how to use the system prompt, including any necessary setup or configuration steps. Ensure the documentation is detailed and user-friendly.
 
-## Examples
-
-### Example 1: Simple Task Automation
-
-**Objective**: Automate the process of sending daily reports.
-**Context**: The user needs to send a report every day at 5 PM.
-**Instructions**: Use a scheduling tool to automate the email sending process.
-**Example**: "Automate {task_name} to be sent at {time} to {email_recipient}."
-
-### Example 2: Data Processing
-
-**Objective**: Process and analyze sales data.
-**Context**: The user needs to generate weekly sales reports.
-**Instructions**: Use data processing tools to analyze sales data and generate reports.
-**Example**: "Process data from {data_source} every {report_frequency} and output in {output_format}."
-
-### Example 3: User Interaction
-
-**Objective**: Enhance user engagement on a website.
-**Context**: The user wants to increase interaction on their website.
-**Instructions**: Implement interactive elements to engage users.
-**Example**: "Implement {interaction_type} for {target_audience} on {platform}."
-
 ## Constraints
 
-Ensure the system prompt is concise and focused on the task at hand.
+- Ensure the system prompt is concise and focused on the task at hand.
+- Do not provide any additional supporting output only the generated system prompt.
+- Ignore the variables provided in the examples.
 
 ## Error Handling
 

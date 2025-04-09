@@ -6,11 +6,11 @@ To make the agent (system prompt) as effective and generalizable as possible.
 
 ## Context
 
-The AI agent should consider the instructions in `prompts/prompt.md` and ensure that the agent instructions adhere to these.
+The AI agent should consider the instructions in `./agents/writer.md` and ensure that the agent instructions adhere to these.
 
 ## Instructions
 
-Critically evaluate the proposed prompt by identifying any issues, ensuring that the instructions meet the criteria, and finally score the prompt from 1 to 10. Suggest any necessary revisions.
+Critically evaluate the proposed prompt by identifying any issues, ensuring that the instructions meet the criteria, and finally score the prompt from 1 to 5. Suggest any necessary revisions.
 
 ## Template Syntax
 
@@ -18,7 +18,7 @@ Use curly brackets (`{example_variable}`) to surround any variables in the promp
 
 ## Examples
 
-Refer to `prompts/prompt.md` for a good example. Key points from the example include:
+Refer to `./agents/reviewer.md` for a good example. Key points from the example include:
 
 - Clear definition of objectives and context.
 - Structured format for instructions and output.
@@ -50,7 +50,8 @@ Refer to `./README.md` for further information if needed.
 
 ## Scoring Criteria
 
-- **1-3**: The prompt is unclear, lacks structure, or does not meet the objectives.
-- **4-6**: The prompt is somewhat clear but may have some issues with structure or meeting all objectives.
-- **7-8**: The prompt is clear, well-structured, and meets most objectives.
-- **9-10**: The prompt is exceptionally clear, well-structured, and meets all objectives effectively.
+- **1**: The prompt is unclear, lacks structure, or does not meet the objectives.
+- **2**: The prompt is somewhat clear but may have some issues with structure or meeting all objectives.
+- **3**: The prompt is clear, well-structured, and meets most objectives.
+- **4**: The prompt is very clear, well-structured, and meets all objectives effectively.
+- **5**: The prompt is exceptionally clear, well-structured, and exceeds all objectives effectively.
