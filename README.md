@@ -20,6 +20,29 @@ A set of LLM agnostic system prompts for creating AI Agents.
 
 AgentSmith is a powerful tool designed to enhance the creation, evaluation, and testing of system prompts for AI agents. System prompts are crucial in guiding AI behavior and responses, and AgentSmith provides a structured approach to crafting these prompts effectively.
 
+## Data Flow
+
+```
+AgentSmith Writer                      
+┌──────┐   ┌─────────────┐             
+│Writer├──►│System Prompt│             
+└──────┘   └─────────────┘             
+AgentSmith Reviewer                    
+      ┌─────────────┐                  
+      │System Prompt│                  
+      └──────┬──────┘                  
+┌────────┐   │   ┌──────┐              
+│Reviewer├───┴──►│Review│              
+└────────┘       └──────┘              
+AgentSmith Tester                      
+    ┌─────────────┐┌──────┐            
+    │System Prompt││Output│            
+    └──────┬──────┘└──┬───┘            
+┌──────┐   │          │   ┌───────────┐
+│Tester├───┴──────────┴──►│Test Result│
+└──────┘                  └───────────┘
+```
+
 ## Roles
 
 - ### AgentSmith Writer
